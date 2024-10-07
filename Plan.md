@@ -34,7 +34,7 @@
       Mot de passe : Azerty1*
       Adresse IP fixe : 172.16.10.10/24
 
-        Pour un client WindowWILDEs 10 : 
+        Pour un client Windows 10 : 
     Nom : CLIWIN01
     Compte utilisateur : wilder (dans le groupe des admins locaux)
     Mot de passe : Azerty1*
