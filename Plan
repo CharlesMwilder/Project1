@@ -27,3 +27,17 @@ Product Backlog
 Sprint Planning
 	- Installer et configurer un serveur Windows Server 2022 et un client Windows 10 Pro
 	- Installer TightVNC sur le serveur et le client (deux versions differentes)
+
+
+
+
+
+
+
+
+Activez le bureau à distance sur le serveur :
+Allez dans Propriétés du système (cliquez avec le bouton droit de la souris sur « Ce PC » > Propriétés).
+Cliquez sur Paramètres du bureau à distance.
+Activez l'option Autoriser les connexions à distance à cet ordinateur.
+Assurez-vous que l'option Authentification de niveau réseau (NLA) est sélectionnée pour la sécurité.
+Cliquez sur Appliquer et OK.
