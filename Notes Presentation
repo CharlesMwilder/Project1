@@ -21,13 +21,15 @@ Mot cles pour la conclusion:
       inconvenients: - logiciel a telechargé
                      - Pas de gestion de sessions multiple (seulement l utilisateur actif)
 
-2 - Desktop Remote Connexion
+2 - Connexion Bureau a Distance
       avantages: - Integré a Windows
                  - Gestion de session multiple en simultané (plusieurs utilisateur peuvent travailler sur un meme serveur)                                                                                                           
 
 
       inconvenients: - Serveur ne peut pas voir ce que fait le client, son ecran est verrouillé
                      - Esentiellement destiné a Windows
+
+
 
 Objectif princile realisé (effectuer une connexion securisé d'u client vers un servuer avec TightVNC et Connexion Bureu a Distance)
 Objectif secondaire realisé (script Connexion bureau a distance)
