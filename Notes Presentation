@@ -1,4 +1,4 @@
-Mots cles pour l'intro:
+ Mots cles pour l'intro:
 
 1 - Presentation de l'equipe
       Camille, Charles, Mohammed, Igor
@@ -18,12 +18,12 @@ Mot cles pour la conclusion:
                  - Serveur peut suivre les actions du client a distance, et prendre la main en temps reel
                  - compatibilité multiplateforme (windows, linux, mac os)
 
-      inconvenients: - logiciel a telechargé
-                     - Pas de gestion de sessions multiple (seulement l utilisateur actif)
+      inconvenients: - c est un logiciel a telechargé
+                     - il y a pas de gestion de sessions multiple (seulement l utilisateur actif)
 
 2 - Connexion Bureau a Distance
-      avantages: - Integré a Windows
-                 - Gestion de session multiple en simultané (plusieurs utilisateur peuvent travailler sur un meme serveur)                                                                                                           
+      avantages: - il est integré a Windows
+                 - il y a la gestion de session multiple en simultané (plusieurs utilisateurs peuvent travailler sur un meme serveur)                                                                                                           
 
 
       inconvenients: - Serveur ne peut pas voir ce que fait le client, son ecran est verrouillé
