@@ -1,23 +1,22 @@
 # Enable Remote Desktop
->> Write-Host "Enabling Remote Desktop..."
->> Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server' -Name "fDenyTSConnections" -Value 0
->>
->> # Enable Network Level Authentication (NLA)
->> Write-Host "Enabling Network Level Authentication (NLA)..."
->> Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server\WinStations\RDP-Tcp' -Name "UserAuthentication" -Value 1
->>
->> # Add a firewall rule to allow Remote Desktop (RDP) through Windows Defender Firewall
->> Write-Host "Configuring firewall to allow Remote Desktop..."
->> Enable-NetFirewallRule -DisplayGroup "Remote Desktop"
->>
->> # Verify Remote Desktop settings
->> Write-Host "Verifying Remote Desktop is enabled..."
->> $rdpStatus = Get-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server' -Name "fDenyTSConnections"
->> if ($rdpStatus.fDenyTSConnections -eq 0) {
->>     Write-Host "Remote Desktop is enabled."
->> } else {
->>     Write-Host "Remote Desktop is not enabled. Please check the settings manually."
->> }
->>
->> Write-Host "Remote Assistance setup completed. You can now connect via Remote Desktop."
->>
+Write-Host "Enabling Remote Desktop..."
+Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server' -Name "fDenyTSConnections" -Value 0
+
+# Enable Network Level Authentication (NLA)
+Write-Host "Enabling Network Level Authentication (NLA)..."
+Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server\WinStations\RDP-Tcp' -Name "UserAuthentication" -Value 1
+
+# Add a firewall rule to allow Remote Desktop (RDP) through Windows Defender Firewall
+Write-Host "Configuring firewall to allow Remote Desktop..."
+Enable-NetFirewallRule -DisplayGroup "Remote Desktop"
+
+# Verify Remote Desktop settings
+Write-Host "Verifying Remote Desktop is enabled..."
+$rdpStatus = Get-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server' -Name "fDenyTSConnections"
+if ($rdpStatus.fDenyTSConnections -eq 0) {
+    Write-Host "Remote Desktop is enabled."
+} else {
+    Write-Host "Remote Desktop is not enabled. Please check the settings manually."
+}
+
+Write-Host "Remote Assistance setup completed. You can now connect via Remote Desktop."
