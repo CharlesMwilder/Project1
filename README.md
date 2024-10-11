@@ -45,6 +45,7 @@ Message d'erreur au niveau du mot de passe
 ### 6. Solutions trouvées : Solutions et alternatives trouvées
  Dans le panneau de configuration de TightVNCserver: reconfiguration du mot de passe pour l'accès à distance
 
+<img width="259" alt="Capture d'écran 2024-10-10 145844" src="https://github.com/user-attachments/assets/cfdefe11-2eab-4bb6-a26c-3b3195bb4846">
 
 
 ### 7. Améliorations possibles : suggestions d’améliorations futures
