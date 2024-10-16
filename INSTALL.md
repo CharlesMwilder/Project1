@@ -1,10 +1,10 @@
 # Documentation pour les administrateurs  
 
 ## SOMMAIRE
-- [1. Prérequis techniques](https://github.com/WildCodeSchool/TSSR-2409-P1-G2-Teleassistance/blob/Igor/INSTALL.md#1-pr%C3%A9requis-techniques)
-- [2. Étapes d'installation et de configuration de TightVNC](https://github.com/WildCodeSchool/TSSR-2409-P1-G2-Teleassistance/blob/Igor/INSTALL.md#2-%C3%A9tapes-dinstallation-et-de-configuration-de-tightvnc)
-- [3. Étapes de configuration de Connexion Bureau à Distance de Windows](https://github.com/WildCodeSchool/TSSR-2409-P1-G2-Teleassistance/blob/Igor/INSTALL.md#configuration-de-la-connexion-bureau-%C3%A0-distance)
-- [4. FAQ](https://github.com/WildCodeSchool/TSSR-2409-P1-G2-Teleassistance/blob/Igor/INSTALL.md#3-faq--solutions-aux-probl%C3%A8mes-connus-et-courants-li%C3%A9s-%C3%A0-linstallation-et-%C3%A0-la-configuration)
+- [1. Prérequis techniques](https://github.com/WildCodeSchool/TSSR-2409-P1-G2-Teleassistance/blob/main/INSTALL.md#1-pr%C3%A9requis-techniques)
+- [2. Étapes d'installation et de configuration de TightVNC](https://github.com/WildCodeSchool/TSSR-2409-P1-G2-Teleassistance/blob/main/INSTALL.md#2-%C3%A9tapes-dinstallation-et-de-configuration-de-tightvnc)
+- [3. Étapes de configuration de Connexion Bureau à Distance de Windows](https://github.com/WildCodeSchool/TSSR-2409-P1-G2-Teleassistance/blob/main/INSTALL.md#configuration-de-la-connexion-bureau-%C3%A0-distance)
+- [4. FAQ](https://github.com/WildCodeSchool/TSSR-2409-P1-G2-Teleassistance/blob/main/INSTALL.md#3-faq--solutions-aux-probl%C3%A8mes-connus-et-courants-li%C3%A9s-%C3%A0-linstallation-et-%C3%A0-la-configuration)
   
 ## 1. Prérequis techniques  
 **TightVNC:**
