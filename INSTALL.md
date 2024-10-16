@@ -85,7 +85,7 @@ Remarque: Il est conseillé de suivre les préconisations de [création d'un mot
 
 - ### Installation de la version TightVNCviewer sur le client à distance
 
-1. Répéter à l'identique les 3 premières consignes de l'[installation de TightVNC sur le serveur](https://github.com/WildCodeSchool/TSSR-2409-P1-G2-Teleassistance/edit/main/INSTALL.md#installation-de-la-version-tightvncserver-sur-le-serveur)
+1. Répéter à l'identique les 3 premières consignes de l'[installation de TightVNC sur le serveur](https://github.com/WildCodeSchool/TSSR-2409-P1-G2-Teleassistance/blob/main/INSTALL.md#installation-de-la-version-tightvncserver-sur-le-serveur)
 
 - ### Configuration de la connexion Bureau à distance
   
