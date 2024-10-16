@@ -5,8 +5,8 @@
 ### 1. Présentation du projet, objectifs finaux  
 
 **Objectifs finaux:**
-- Configurer un accès sécurisé pour faire de la téléassistance sur un serveur depuis un client en utilsant le logiciel TightVNC et la connexion Bureau à distance de Windows  
-- Script PS pour faciliter la connexion initiale de la téléassistance  
+- Objectif principal: Configurer un accès sécurisé pour faire de la téléassistance sur un serveur depuis un client en utilsant le logiciel TightVNC et la connexion Bureau à distance de Windows  
+- Objectif secondaire: Script PowerShell pour faciliter la connexion initiale de la téléassistance  
 
 ### 2. Introduction : mise en contexte
 
@@ -17,7 +17,11 @@
 
 Sprint 1ère semaine:   
 Scrum master: Charles  
-PO: Igor  
+Product Owner: Igor  
+
+Sprint 2ème semaine:
+Scrum master:
+Product Owner:
 
   
 ### 4. Choix techniques : quel OS, quelle version, etc.
