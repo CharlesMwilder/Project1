@@ -124,11 +124,23 @@ Remarque: Il est conseillé de suivre les préconisations de [création d'un mot
 
 - ### Configuration de la connexion Bureau à distance
 
-1.
+1. **Accéder aux paramètres de l'application This PC**: Tapper dans la barre de recherche de l'ordinateur "This PC", ensuite faire un clic droit sur l'application "This PC" et sélectionner "Properties"
+
+
 ![Capture d'écran 2024-10-11 105757](https://github.com/user-attachments/assets/b26d6151-6cd8-46bb-9702-e2a7b0e52685)
+
+2. **Modifier les options de connexion à distance**: Cliquer sur "Remote desktop" qui se trouve dans "Related settings"  
 ![Capture d'écran 2024-10-11 1058212](https://github.com/user-attachments/assets/4badb364-d6ea-41c4-9aac-2b22674b35a6)
-![Capture d'écran 2024-10-11 105854](https://github.com/user-attachments/assets/a2fd262c-ff15-4aca-ae14-1c7af8d3fb27)
-![Capture d'écran 2024-10-11 105906](https://github.com/user-attachments/assets/c23ba612-fed2-4ee6-a46b-46addeacff91)
+
+3. **Activer la connexion à distance**: Passer l'état d'"Enable Remote Desktop" de **Off** à **On** puis la fenêtre "Remote Desktop Settings" cliquer sur "confirm" 
+
+![Capture d'écran 2024-10-16 160837](https://github.com/user-attachments/assets/4d02dd4e-65f9-4463-b30c-0b77cc666c3e)
+![Capture d'écran 2024-10-16 160905](https://github.com/user-attachments/assets/229878e6-854e-42fb-a238-faba6ba3a999)
+
+4. **
+![Capture d'écran 2024-10-16 161131](https://github.com/user-attachments/assets/377acf9e-19e7-4e0b-a01f-6dc9754f80eb)
+![Capture d'écran 2024-10-11 105906](https://github.com/user-attachments/assets/7fe672e4-3dc1-4a17-a4db-8b3ec654636a)
+
 
 
 ## 3. FAQ : solutions aux problèmes connus et courants liés à l’installation et à la configuration  
