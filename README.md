@@ -5,26 +5,24 @@
 ### 1. Présentation du projet, objectifs finaux  
 
 **Objectifs finaux:**
-- Objectif principal: Configurer un accès sécurisé pour faire de la téléassistance sur un serveur depuis un client en utilsant le logiciel TightVNC et la connexion Bureau à distance de Windows  
+- Objectif principal: Configurer un accès sécurisé pour faire de la téléassistance sur un serveur depuis un client en utilsant le logiciel TightVNC et Connexion Bureau à Distance de Windows  
 - Objectif secondaire: Script PowerShell pour faciliter la connexion initiale de la téléassistance  
 
 ### 2. Introduction : mise en contexte
-
-
-
+Le serveur a rencontré un probleme qu'il n'arrivait pas à resoudre. Le client a dû intervenir sur la machine du serveur en se connectant à distance avec TightVNC et Bureau Connexion à Distance de Windows.
 
 ### 3. Membres du groupe de projet (rôles par sprint)
 
-Sprint 1ère semaine:   
-Scrum master: Charles  
-Product Owner: Igor  
+#### Sprint S1:   
+SCRUM MASTER: Charles  
+PRODUCT OWNER: Igor  
 
-Sprint 2ème semaine:
-Scrum master: Mohammed  
-Product Owner: Camille  
+#### Sprint S2:
+SCRUM MASTER: Mohammed  
+PRODUCT OWNER: Camille  
 
-  
-### 4. Choix techniques : quel OS, quelle version, etc.
+
+### 4. Choix techniques:
 
 - Server:  
 Windows Server 2022  
