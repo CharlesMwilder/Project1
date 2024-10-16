@@ -20,8 +20,8 @@ Scrum master: Charles
 Product Owner: Igor  
 
 Sprint 2ème semaine:
-Scrum master:
-Product Owner:
+Scrum master: Mohammed  
+Product Owner: Camille  
 
   
 ### 4. Choix techniques : quel OS, quelle version, etc.
