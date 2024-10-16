@@ -1,7 +1,21 @@
 ## Documentation pour les administrateurs  
 
 ### 1. Prérequis techniques  
+**TightVNC:**
+- Windows (7, 8, 10, Server 2008/2012/2016)
+- Processeur : Processeur compatible x86 (Intel ou AMD)
+- Mémoire RAM : Minimum 512 Mo de RAM (1 Go recommandé)
+- Espace disque : Environ 20 Mo pour l'installation
+- Accès réseau entre la machine cliente et la machine hôte pour la connexion à distance
 
+**Connexion Bureau à Distance de Windows:**
+- Disponible uniquement sur les éditions Pro & Enterprise
+- Windows 7, 8, 8.1, 10, 11, Windows Server 2008/2012/2016/2019
+- Processeur : Processeur compatible x86/x64 (Intel ou AMD)
+- Mémoire RAM : 2 Go minimum (4 Go recommandés pour de meilleures performances)
+- Espace disque : 200 Mo pour les fichiers temporaires du service Remote Desktop
+- Accès réseau entre la machine cliente et la machine hôte pour la connexion à distance
+  
 ### 2. Étapes d'installation et de configuration : instruction étape par étape  
 
 - Configutation du nom du serveur et du client
