@@ -128,8 +128,15 @@ Tapez Y pour confirmer et appuyez sur Entrée.
 
 ## Script pour l'Activation du bureau à distance et de l'authentification de niveau réseau (NLA) sur le client Windows
 
+## Étape 1 : Répétez l'étape 1 précédente
 
+1. copiez cette commande dans **Notepad** : `Démarrer-Processus « mstsc » « /v:192.168.0.100 » `
 
+2. Nommez le fichier de la même manière mais en tant que `ConnexionDistance.ps1`
+
+## Étape 2 : Répétez l'étape 2 précédente avec votre nouveau script.
+
+1. Done !
 
 ---
 
