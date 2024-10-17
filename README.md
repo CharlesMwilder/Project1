@@ -13,14 +13,11 @@ Le serveur a rencontré un probleme qu'il n'arrivait pas à resoudre. Le client 
 
 ### 3. Membres du groupe de projet (rôles par sprint)
 
-#### Sprint S1:   
-SCRUM MASTER: Charles  
-PRODUCT OWNER: Igor  
-
-#### Sprint S2:
-SCRUM MASTER: Mohammed  
-PRODUCT OWNER: Camille  
-
+|   | Sprint S1 | Sprint S2 |  
+| :--: | :-------: | :-------: |
+| SCRUM MASTER | Charles | Mohammed |  
+| PRODUCT OWNER | Igor | Camille |  
+| TECHNICIANS | Mohammed et Camille | Charles et Igor |   
 
 ### 4. Choix techniques:
 

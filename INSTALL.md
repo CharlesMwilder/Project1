@@ -24,10 +24,6 @@
   
 ## 2. Étapes d'installation et de configuration de TightVNC:  
 
- - ### Configuration du nom du serveur et du client  
-
-1.
-
 - ### Configuration de l'adresse IP du server et du client
 
 1. **Accéder aux paramètres réseau** : Cliquer avec le bouton droit sur l'icône réseau dans la barre des tâches et sélectionner "Ouvrir les paramètres de réseau et Internet"  
@@ -79,13 +75,17 @@
 5. **Configuration Custom**: Faire un clic droit sur  "TightVNC Viewer" et Cliquer sur "Entire feature will be unavailable" (Cela permet d'installer seulement la version server) . Un croix rouge doit apparaitre devant TightVNC Viewer 
 
 ![Capture d'écran 2024-10-09 161741-2](https://github.com/user-attachments/assets/9866444c-81ea-488a-b5aa-8af3b65636af)  
+
 Une croix rouge doit apparaitre devant TightVNC Viewer  
+
 ![Capture d'écran 2024-10-09 161756-2](https://github.com/user-attachments/assets/f6e979fb-c57c-4c6a-8299-0cbfa3d24911)  
 
-5. **Sélectionner les tâches additionnelles**: Cocher "Register TightVNC Server as a stystem service " et "Configure system to allow services simluate Ctrl-Alt-Del". Laisser décocher "Run only as a system service, disable user application mode"
+5. **Sélectionner les tâches additionnelles**: Cocher "Register TightVNC Server as a stystem service " et "Configure system to allow services simluate Ctrl-Alt-Del". Laisser décocher "Run only as a system service, disable user application mode"  
+
 ![Capture d'écran 2024-10-09 162116](https://github.com/user-attachments/assets/54fd87d0-d025-4cec-bc48-284ebb8d3f90)
 
 6. **Lancer l'installation**: Cliquer sur le bouton "Install"  
+
 ![Capture d'écran 2024-10-09 171509](https://github.com/user-attachments/assets/824fd6de-5c66-4b1e-8471-976b21fc2634)
 
 7. **autoriser l'application TightVNC**: Cliquer sur "oui" pour autoriser l'application TightVNC Version 2.8.85 Installer, à effectuer des modifications sur votre appareil
@@ -106,30 +106,45 @@ Remarque: Il est conseillé de suivre les préconisations de [création d'un mot
 
 1. **Répéter à l'identique les 4 premières consignes de l'[installation de TightVNC sur le serveur](https://github.com/WildCodeSchool/TSSR-2409-P1-G2-Teleassistance/blob/main/INSTALL.md#installation-de-la-version-tightvncserver-sur-le-serveur)**  
 
-2. **Configuration Custom**: Faire un clic droit sur  "TightVNC Server" et Cliquer sur "Entire feature will be unavailable". Vérifier la présence de la croix rouge devant TightVNC Server
+2. **Configuration Custom**: Faire un clic droit sur  "TightVNC Server" et cliquer sur "Entire feature will be unavailable". Vérifier la présence de la croix rouge devant TightVNC Server
 
-3. **Sélectionner les tâches additionnelles**: Cocher la case "Associate.vnc files with TightVNC Viewer" et cliquer sur "Next"
+3. **Sélectionner les tâches additionnelles**: Cocher la case "Associate.vnc files with TightVNC Viewer" et cliquer sur "Next"  
+
 ![Capture d'écran 2024-10-09 171502](https://github.com/user-attachments/assets/dcb26319-831e-4df0-b4fd-7455c2ef0f3b)
 
 4. **Lancer l'installation**: Cliquer sur le bouton "Install"  
 
 ![Capture d'écran 2024-10-09 171509](https://github.com/user-attachments/assets/824fd6de-5c66-4b1e-8471-976b21fc2634)
 
-5. **autoriser l'application TightVNC**: Cliquer sur "oui" pour autoriser l'application TightVNC Version 2.8.85 Installer, à effectuer des modifications sur votre appareil
+5. **autoriser l'application TightVNC**: Cliquer sur "oui" pour autoriser l'application TightVNC Version 2.8.85 Installer, à effectuer des modifications sur votre appareil  
 
 ![Capture d'écran 2024-10-09 171516-2](https://github.com/user-attachments/assets/5f5ed34f-ac85-4b35-a8a7-5b985bc9f4f3)  
 
-6. **Fin de l'installation**: cliquer sur "Finish" pour terminer l'installation  
+6. **Fin de l'installation**: Cliquer sur "Finish" pour terminer l'installation  
 
 ![Capture d'écran 2024-10-09 170443](https://github.com/user-attachments/assets/d5912d77-d0d4-4cf2-9873-fbea691f4431)  
 
-- ### Configuration de la connexion Bureau à distance
+- ### Configuration de la connexion Bureau à distance  
 
-1.
+1. **Accéder aux paramètres de l'application This PC**: Tapper dans la barre de recherche de l'ordinateur "This PC", ensuite faire un clic droit sur l'application "This PC" et sélectionner "Properties"  
+
 ![Capture d'écran 2024-10-11 105757](https://github.com/user-attachments/assets/b26d6151-6cd8-46bb-9702-e2a7b0e52685)
-![Capture d'écran 2024-10-11 1058212](https://github.com/user-attachments/assets/4badb364-d6ea-41c4-9aac-2b22674b35a6)
-![Capture d'écran 2024-10-11 105854](https://github.com/user-attachments/assets/a2fd262c-ff15-4aca-ae14-1c7af8d3fb27)
-![Capture d'écran 2024-10-11 105906](https://github.com/user-attachments/assets/c23ba612-fed2-4ee6-a46b-46addeacff91)
 
+2. **Modifier les options de connexion à distance**: Cliquer sur "Remote desktop" qui se trouve dans "Related settings"  
+
+![Capture d'écran 2024-10-11 1058212](https://github.com/user-attachments/assets/4badb364-d6ea-41c4-9aac-2b22674b35a6)  
+
+3. **Activer la connexion à distance**: Passer l'état d'"Enable Remote Desktop" de **Off** à **On** puis dans la fenêtre "Remote Desktop Settings" cliquer sur "confirm"  
+
+![Capture d'écran 2024-10-16 160837](https://github.com/user-attachments/assets/4d02dd4e-65f9-4463-b30c-0b77cc666c3e)  
+![Capture d'écran 2024-10-16 160905](https://github.com/user-attachments/assets/229878e6-854e-42fb-a238-faba6ba3a999)  
+
+4. **Modifier les paramètres avancés**: Cliquer sur "Advances settings"  
+
+![Capture d'écran 2024-10-16 161131](https://github.com/user-attachments/assets/377acf9e-19e7-4e0b-a01f-6dc9754f80eb)
+
+5. **Finaliser en sécurisant la connexion**: Activer l'option "Require computers to use Network Level Authentication to connect"  
+
+![Capture d'écran 2024-10-11 105906](https://github.com/user-attachments/assets/7fe672e4-3dc1-4a17-a4db-8b3ec654636a)
 
 ## 3. FAQ : solutions aux problèmes connus et courants liés à l’installation et à la configuration  
