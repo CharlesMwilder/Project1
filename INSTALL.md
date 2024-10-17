@@ -32,8 +32,7 @@
 
 2. **Modifier les options de l'adaptateur** : Cliquer sur "Modifier les options de l’adaptateur"  
 
-![Capture d'écran 2024-10-09 145216](https://github.com/user-attachments/assets/b1f0df44-118f-4d11-b770-89bbc2a0fdb6)
-
+![Capture d'écran 2024-10-09 145216](https://github.com/user-attachments/assets/b1f0df44-118f-4d11-b770-89bbc2a0fdb6)  
 
 3. **Sélectionner l'adaptateur** : Faire un clic droit sur l'adaptateur réseau utilisé (par exemple, Ethernet) et sélectionner "Propriété"  
 
@@ -59,8 +58,9 @@
 - ### Installation de la version TightVNCserver sur le serveur
 1. **Télécharger le Logiciel TightVNC**: Aller sur le site web de [TightVNC](https://www.tightvnc.com/download.php) et télecharger le logiciel
 
-<img src="https://github.com/user-attachments/assets/8a160481-e75a-4fcb-a3ad-068db5ec2ad8" alt="drawing" width="700"/> 
-  
+<img src="https://github.com/user-attachments/assets/8a160481-e75a-4fcb-a3ad-068db5ec2ad8" alt="drawing" width="700"/>  
+
+\
 2. **Débuter l'installation de TightVNC**: Exécuter TightVNC, la fenêtre "TightVNC Setup" doit apparaître puis cliquer sur "Next"   
 
 ![Capture d'écran 2024-10-09 155800](https://github.com/user-attachments/assets/b04a5bf7-b4ac-42c0-83bb-27c9774ef611)
@@ -93,7 +93,7 @@ Une croix rouge doit apparaitre devant TightVNC Viewer
 
 ![Capture d'écran 2024-10-09 171516v2](https://github.com/user-attachments/assets/82069485-c73e-4f97-baab-42eb0baf983b)
 
-8. **Configuration sécuriser des mots de passe**: Créer 2 mots de passe différents pour l'administrateur et le client à distance. Pour le client à distance, sélectionner "require password-based authentication" et rentrer le mot de passe choisi. Pour l'administrateur, sélectionner "protect control interface with an administrative password" et rentrer un mot de passe différent.
+8. **Configuration sécuriser des mots de passe**: Créer 2 mots de passe différents pour l'administrateur et le client à distance. Pour le client à distance, sélectionner "require password-based authentication" et rentrer le mot de passe choisi. Pour l'administrateur, sélectionner "protect control interface with an administrative password" et rentrer un mot de passe différent.  
 
 ![Capture d'écran 2024-10-09 170435](https://github.com/user-attachments/assets/e013ad39-ac9f-439f-b9f4-249bbfec441b)
 
@@ -109,9 +109,11 @@ Remarque: Il est conseillé de suivre les préconisations de [création d'un mot
 
 2. **Configuration Custom**: Faire un clic droit sur "TightVNC Server" et cliquer sur "Entire feature will be unavailable". Vérifier la présence de la croix rouge devant TightVNC Server et cliquer sur "Next"  
 
+\
 <img src="https://github.com/user-attachments/assets/545b2885-9d76-4a4b-9181-3917157ea2a1" alt="drawing" width="500"/> 
-<img src="https://github.com/user-attachments/assets/2bac9994-1441-41f8-8881-6d36b25b8a4b" alt="drawing" width="500"/> 
+<img src="https://github.com/user-attachments/assets/2bac9994-1441-41f8-8881-6d36b25b8a4b" alt="drawing" width="500"/>  
 
+\
 3. **Sélectionner les tâches additionnelles**: Cocher la case "Associate.vnc files with TightVNC Viewer" et cliquer sur "Next"  
 
 ![Capture d'écran 2024-10-09 171502](https://github.com/user-attachments/assets/826e3d3b-9e3e-4fd8-99b2-a2dd08810002)
