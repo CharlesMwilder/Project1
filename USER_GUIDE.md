@@ -37,9 +37,6 @@ Connexion etablie entre le client et le serveur
 
 
 
-### Utilisation avancée : comment utiliser au mieux les options
-
-##### FAQ : solutions aux problèmes connus et courants liés à l’utilisation
 
 ## Utilisation de base :
 
@@ -60,6 +57,81 @@ Connexion etablie entre le client et le serveur
 4. (Depuis le serveur) Cette fenetre va apparaitre, qui va permettre d'autoriser le client à se connecter au serveur
 
 ![Capture d'écran 2024-10-11 1101402](https://github.com/user-attachments/assets/a8f05f3b-1b79-4e3d-961d-b5f380d7b347)
+
+
+
+## Utilisation avancée : comment utiliser au mieux les options
+
+Ce guide vous aidera à activer le bureau à distance et à configurer l'authentification au niveau du réseau (NLA) sur votre serveur et client Windows, à modifier un script et à ajouter les règles de pare-feu nécessaires.
+
+## Prérequis
+
+- Serveur Windows avec des privilèges administratifs.
+- Accès à PowerShell.
+- Des captures d'écran sont fournies à titre d'aide visuelle.
+
+---
+
+## Définir la politique d'exécution de PowerShell à RemoteSigned pour le **CLIENT** et le **SERVEUR**
+
+### Étape 1 : Ouvrir PowerShell en tant qu'administrateur 
+
+1. Dans la barre de recherche, tapez PowerShell, cliquez avec le bouton droit de la souris et sélectionnez Exécuter en tant qu'administrateur.
+![SRV PS](https://github.com/user-attachments/assets/60aac6d7-ef35-45b8-8cd2-394dd8be5c69)
+
+
+### Étape 2 : Définir la politique d'exécution sur RemoteSigned
+
+1. Entrez la commande suivante : ``` Set-ExecutionPolicy RemoteSigned -Scope CurrentUser ```
+
+2. Après avoir exécuté la commande, il se peut que l'on vous demande de confirmer la modification. Vous pouvez répondre par :
+
+Tapez Y pour confirmer et appuyez sur Entrée.
+
+## Script pour l'Activation du bureau à distance et de l'authentification de niveau réseau (NLA) sur le serveur Windows
+
+## Étape 1 : Créer le script PowerShell
+
+1. Ouvrez **Notepad** sur votre serveur.
+![SRV Notepad](https://github.com/user-attachments/assets/a3b474e6-8d69-4cbc-bd43-fe740a505b00)
+
+
+2. Copiez et collez le script suivant dans le fichier :
+![SRV Script Paste](https://github.com/user-attachments/assets/bbb7fe2e-952f-40ae-87d0-34ac13123885)
+
+
+```powershell
+   # Enable Remote Desktop and NLA
+   Write-Host "Enabling Remote Desktop..."
+
+   Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server' -Name "fDenyTSConnections" -Value 0
+   Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server\WinStations\RDP-Tcp' -Name "UserAuthentication" -Value 1
+
+   # Add a firewall rule to allow Remote Desktop (RDP) through Windows Defender Firewall
+   Write-Host "Configuring firewall to allow Remote Desktop..."
+
+   Enable-NetFirewallRule -DisplayGroup "Remote Desktop"
+
+   Write-Host "Remote Assistance setup completed."
+```
+
+3. Enregistrez le fichier sous `EnableRemoteDesktop.ps1` en cliquant sur **File** > **Save As**.
+![SRV Save Folder ps1](https://github.com/user-attachments/assets/1626d7cb-fc41-4492-ac44-3613600db84a)
+
+
+## Étape 2 : Run le Script
+
+1. Faites un clic droit sur `EnableRemoteDesktop.ps1` et cliquez sur « Run with PowerShell ».
+
+2. Il peut vous demander si vous êtes sûr d'exécuter ce script, si c'est le cas, tapez : « y » et c'est fait pour le serveur !
+ 
+
+## Script pour l'Activation du bureau à distance et de l'authentification de niveau réseau (NLA) sur le client Windows
+
+
+
+
+---
 
 - ## FAQ : solutions aux problèmes connus et courants liés à l’utilisation
  
