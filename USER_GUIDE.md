@@ -24,24 +24,9 @@
 
 ![Capture d’écran 2024-10-16 à 16 32 01](https://github.com/user-attachments/assets/bc291968-5493-446a-ac1e-920f1c230cea)
 
-Connexion etablie entre le client et le serveur
+6. Connexion etablie entre le client et le serveur
 
 ![Capture d’écran 2024-10-16 à 16 12 02](https://github.com/user-attachments/assets/9f6ba006-abf2-44fe-bb40-9eb7a23832d1)
-
-
-
-
-
-
-
-
-
-
-### Utilisation avancée : comment utiliser au mieux les options
-
-##### FAQ : solutions aux problèmes connus et courants liés à l’utilisation
-
-## Utilisation de base :
 
 ### Comment utiliser **Connexion Bureau à Distance**
 
@@ -61,5 +46,11 @@ Connexion etablie entre le client et le serveur
 
 ![Capture d'écran 2024-10-11 1101402](https://github.com/user-attachments/assets/a8f05f3b-1b79-4e3d-961d-b5f380d7b347)
 
-- ## FAQ : solutions aux problèmes connus et courants liés à l’utilisation
+5. Connexion etablie entre le client et le serveur
+   
+![Capture d'écran 2024-10-17 115704](https://github.com/user-attachments/assets/e39195ad-5e79-4c0f-8575-5bee96fedf42)
+
+## Utilisation avancée : comment utiliser au mieux les options
+
+## FAQ : solutions aux problèmes connus et courants liés à l’utilisation
  
