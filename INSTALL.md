@@ -22,7 +22,7 @@
 - Stockage: 200 Mo pour les fichiers temporaires du service Remote Desktop
 - Accès réseau entre la machine cliente et la machine hôte pour la connexion à distance
   
-## 2. Étapes d'installation et de configuration de TightVNC:  
+## 2. Étapes d'installation et de configuration:  
 
 - ### Configuration de l'adresse IP du server et du client
 
@@ -32,7 +32,7 @@
 
 2. **Modifier les options de l'adaptateur** : Cliquer sur "Modifier les options de l’adaptateur"  
 
-![Capture d'écran 2024-10-09 145216](https://github.com/user-attachments/assets/a197f3d6-3315-4e4a-9bb1-86424bc77663)  
+![Capture d'écran 2024-10-09 145216](https://github.com/user-attachments/assets/b1f0df44-118f-4d11-b770-89bbc2a0fdb6)  
 
 3. **Sélectionner l'adaptateur** : Faire un clic droit sur l'adaptateur réseau utilisé (par exemple, Ethernet) et sélectionner "Propriété"  
 
@@ -40,16 +40,16 @@
 
 4. **Protocole Internet Version 4 (TCP/IPv4)** : Dans la liste, sélectionner "Protocole Internet Version 4 (TCP/IPv4)" et cliquer sur "Propriétés"  
 
-![Capture d'écran 2024-10-09 145342](https://github.com/user-attachments/assets/d272398f-9886-4b99-9c4c-c21f872360c4)  
+![Capture d'écran 2024-10-09 145342](https://github.com/user-attachments/assets/bd39615f-421e-413e-858b-0cd99baf3373)
 
 5. **Configurer l'adresse IP** : Sélectionner "Utiliser l'adresse IP suivante", entrer l'adresse IP puis le masque et cliquer sur "Ok" pour valider
  
    (image de droite: Serveur)  (image de gauche: Client)
    
-![Capture d'écran 2024-10-09 145843](https://github.com/user-attachments/assets/01c459e4-3b14-420e-938a-71821ce33aa5)
+![Capture d'écran 2024-10-09 145843](https://github.com/user-attachments/assets/d9ec5452-2a01-4f71-847d-9814f76c1f68)
 ![Capture d'écran 2024-10-09 150533](https://github.com/user-attachments/assets/86b594fe-b2b1-4a5a-ab91-337e3e50e871)  
 
-7. **Vérification avec le panneau d'invite des commandes**: Executer ```ipconfig``` pour vérifier que l'addresse IP à bien été modifié  
+6. **Vérification avec le panneau d'invite des commandes**: Executer ```ipconfig``` pour vérifier que l'addresse IP à bien été modifié  
 
 ![Capture d'écran 2024-10-09 150244](https://github.com/user-attachments/assets/781acd18-0ff3-4ea9-bb32-6054a90f4418)
 ![Capture d'écran 2024-10-09 150715](https://github.com/user-attachments/assets/ecadb46f-5baf-464b-b446-eeaf6a01d70f)
@@ -58,59 +58,65 @@
 - ### Installation de la version TightVNCserver sur le serveur
 1. **Télécharger le Logiciel TightVNC**: Aller sur le site web de [TightVNC](https://www.tightvnc.com/download.php) et télecharger le logiciel
 
-![Capture d'écran 2024-10-09 1557312](https://github.com/user-attachments/assets/8a160481-e75a-4fcb-a3ad-068db5ec2ad8)  
-  
+<img src="https://github.com/user-attachments/assets/8a160481-e75a-4fcb-a3ad-068db5ec2ad8" alt="drawing" width="700"/>  
+
+\
 2. **Débuter l'installation de TightVNC**: Exécuter TightVNC, la fenêtre "TightVNC Setup" doit apparaître puis cliquer sur "Next"   
 
-![Capture d'écran 2024-10-09 155800](https://github.com/user-attachments/assets/f18acd6e-f1af-440e-9d78-492ce1593893)
+![Capture d'écran 2024-10-09 155800](https://github.com/user-attachments/assets/b04a5bf7-b4ac-42c0-83bb-27c9774ef611)
 
 3. **Condition d'utilisation**: Lire les conditions d'utilisation, cocher la case "i accept the terms in the License Agreement" et cliquer sur "Next"
 
-![Capture d'écran 2024-10-09 155933](https://github.com/user-attachments/assets/0deace52-7921-4671-a2be-ea2c2cd46d43)
+![Capture d'écran 2024-10-09 155933](https://github.com/user-attachments/assets/8f367a1b-a4a1-47b2-bac6-92556b5f4b07)
 
 4. **Choisir le type de configuration**: Selectionner "Custom" et cliquer sur "Next"  
 
-![Capture d'écran 2024-10-09 161718](https://github.com/user-attachments/assets/b264c6bc-265b-48ac-8881-44e4c2ab1dda)  
+![Capture d'écran 2024-10-09 171353](https://github.com/user-attachments/assets/c07cf114-8c98-4d4b-8780-4e965c19d4b0)
 
 5. **Configuration Custom**: Faire un clic droit sur  "TightVNC Viewer" et Cliquer sur "Entire feature will be unavailable" (Cela permet d'installer seulement la version server) . Un croix rouge doit apparaitre devant TightVNC Viewer 
 
-![Capture d'écran 2024-10-09 161741-2](https://github.com/user-attachments/assets/9866444c-81ea-488a-b5aa-8af3b65636af)  
+![Capture d'écran 2024-10-09 161741-2](https://github.com/user-attachments/assets/711b0b9e-9987-4ca3-ae4f-e60fed306a35)  
 
 Une croix rouge doit apparaitre devant TightVNC Viewer  
 
-![Capture d'écran 2024-10-09 161756-2](https://github.com/user-attachments/assets/f6e979fb-c57c-4c6a-8299-0cbfa3d24911)  
+![Capture d'écran 2024-10-09 161756-2](https://github.com/user-attachments/assets/2df98ddf-9cc7-415b-9ed2-bb22735c096f)  
 
 5. **Sélectionner les tâches additionnelles**: Cocher "Register TightVNC Server as a stystem service " et "Configure system to allow services simluate Ctrl-Alt-Del". Laisser décocher "Run only as a system service, disable user application mode"  
 
-![Capture d'écran 2024-10-09 162116](https://github.com/user-attachments/assets/54fd87d0-d025-4cec-bc48-284ebb8d3f90)
+![Capture d'écran 2024-10-09 1621162](https://github.com/user-attachments/assets/9c824602-21b5-4553-a0c3-0594b325cacb)
 
 6. **Lancer l'installation**: Cliquer sur le bouton "Install"  
 
 ![Capture d'écran 2024-10-09 171509](https://github.com/user-attachments/assets/824fd6de-5c66-4b1e-8471-976b21fc2634)
 
-7. **autoriser l'application TightVNC**: Cliquer sur "oui" pour autoriser l'application TightVNC Version 2.8.85 Installer, à effectuer des modifications sur votre appareil
+7. **Autoriser l'application TightVNC**: Cliquer sur "oui" pour autoriser l'application TightVNC Version 2.8.85 Installer, à effectuer des modifications sur votre appareil
 
-![Capture d'écran 2024-10-09 171516-2](https://github.com/user-attachments/assets/5f5ed34f-ac85-4b35-a8a7-5b985bc9f4f3)  
+![Capture d'écran 2024-10-09 171516v2](https://github.com/user-attachments/assets/82069485-c73e-4f97-baab-42eb0baf983b)
 
-8. **Configuration sécuriser des mots de passe**: Créer 2 mots de passe différents pour l'administrateur et le client à distance. Pour le client à distance, sélectionner "require password-based authentication" et rentrer le mot de passe choisi. Pour l'administrateur, sélectionner "protect control interface with an administrative password" et rentrer un mot de passe différent.
+8. **Configuration sécuriser des mots de passe**: Créer 2 mots de passe différents pour l'administrateur et le client à distance. Pour le client à distance, sélectionner "require password-based authentication" et rentrer le mot de passe choisi. Pour l'administrateur, sélectionner "protect control interface with an administrative password" et rentrer un mot de passe différent.  
 
-![Capture d'écran 2024-10-09 170435](https://github.com/user-attachments/assets/4afab5f9-a941-474b-ad24-333128cca703)
+![Capture d'écran 2024-10-09 170435](https://github.com/user-attachments/assets/e013ad39-ac9f-439f-b9f4-249bbfec441b)
 
 Remarque: Il est conseillé de suivre les préconisations de [création d'un mot de passe fort et sécurisé]( https://support.microsoft.com/fr-fr/windows/cr%C3%A9er-et-utiliser-un-mot-de-passe-fort-c5cebb49-8c53-4f5e-2bc4-fe357ca048eb#:~:text=La%20s%C3%A9curit%C3%A9%20du%20mot%20de,%2C%20minuscules%2C%20chiffres%20et%20symboles.) par Microsoft 
 
 9. **Fin de l'installation**: cliquer sur "Finish" pour terminer l'installation
 
-![Capture d'écran 2024-10-09 170443](https://github.com/user-attachments/assets/d5912d77-d0d4-4cf2-9873-fbea691f4431)  
+![Capture d'écran 2024-10-09 170443-2](https://github.com/user-attachments/assets/b617d9ae-81b3-4e27-b8e1-51d90306bf87)
 
 - ### Installation de la version TightVNCviewer sur le client à distance
 
 1. **Répéter à l'identique les 4 premières consignes de l'[installation de TightVNC sur le serveur](https://github.com/WildCodeSchool/TSSR-2409-P1-G2-Teleassistance/blob/main/INSTALL.md#installation-de-la-version-tightvncserver-sur-le-serveur)**  
 
-2. **Configuration Custom**: Faire un clic droit sur  "TightVNC Server" et cliquer sur "Entire feature will be unavailable". Vérifier la présence de la croix rouge devant TightVNC Server
+2. **Configuration Custom**: Faire un clic droit sur "TightVNC Server" et cliquer sur "Entire feature will be unavailable". Vérifier la présence de la croix rouge devant TightVNC Server et cliquer sur "Next"  
 
+\
+<img src="https://github.com/user-attachments/assets/545b2885-9d76-4a4b-9181-3917157ea2a1" alt="drawing" width="500"/> 
+<img src="https://github.com/user-attachments/assets/2bac9994-1441-41f8-8881-6d36b25b8a4b" alt="drawing" width="500"/>  
+
+\
 3. **Sélectionner les tâches additionnelles**: Cocher la case "Associate.vnc files with TightVNC Viewer" et cliquer sur "Next"  
 
-![Capture d'écran 2024-10-09 171502](https://github.com/user-attachments/assets/dcb26319-831e-4df0-b4fd-7455c2ef0f3b)
+![Capture d'écran 2024-10-09 171502](https://github.com/user-attachments/assets/826e3d3b-9e3e-4fd8-99b2-a2dd08810002)
 
 4. **Lancer l'installation**: Cliquer sur le bouton "Install"  
 
@@ -118,33 +124,33 @@ Remarque: Il est conseillé de suivre les préconisations de [création d'un mot
 
 5. **autoriser l'application TightVNC**: Cliquer sur "oui" pour autoriser l'application TightVNC Version 2.8.85 Installer, à effectuer des modifications sur votre appareil  
 
-![Capture d'écran 2024-10-09 171516-2](https://github.com/user-attachments/assets/5f5ed34f-ac85-4b35-a8a7-5b985bc9f4f3)  
+![Capture d'écran 2024-10-09 171516v2](https://github.com/user-attachments/assets/c8251f90-3e23-41d5-8d64-9fb1c578b223)  
 
 6. **Fin de l'installation**: Cliquer sur "Finish" pour terminer l'installation  
 
-![Capture d'écran 2024-10-09 170443](https://github.com/user-attachments/assets/d5912d77-d0d4-4cf2-9873-fbea691f4431)  
+![Capture d'écran 2024-10-09 170443-2](https://github.com/user-attachments/assets/de77389e-f921-45ef-9f13-c86f6ee21933)
 
 - ### Configuration de la connexion Bureau à distance  
 
 1. **Accéder aux paramètres de l'application This PC**: Tapper dans la barre de recherche de l'ordinateur "This PC", ensuite faire un clic droit sur l'application "This PC" et sélectionner "Properties"  
 
-![Capture d'écran 2024-10-11 105757](https://github.com/user-attachments/assets/b26d6151-6cd8-46bb-9702-e2a7b0e52685)
+![Capture d'écran 2024-10-11 105757](https://github.com/user-attachments/assets/58813e98-b908-4dae-8b7e-8dfc670937fa)
 
 2. **Modifier les options de connexion à distance**: Cliquer sur "Remote desktop" qui se trouve dans "Related settings"  
 
-![Capture d'écran 2024-10-11 1058212](https://github.com/user-attachments/assets/4badb364-d6ea-41c4-9aac-2b22674b35a6)  
+![Capture d'écran 2024-10-11 1058212](https://github.com/user-attachments/assets/9dd778ae-9780-4d62-a4ee-a5e3fc4f95c4)
 
 3. **Activer la connexion à distance**: Passer l'état d'"Enable Remote Desktop" de **Off** à **On** puis dans la fenêtre "Remote Desktop Settings" cliquer sur "confirm"  
 
-![Capture d'écran 2024-10-16 160837](https://github.com/user-attachments/assets/4d02dd4e-65f9-4463-b30c-0b77cc666c3e)  
-![Capture d'écran 2024-10-16 160905](https://github.com/user-attachments/assets/229878e6-854e-42fb-a238-faba6ba3a999)  
+![Capture d'écran 2024-10-16 160837](https://github.com/user-attachments/assets/3c74c435-e528-4071-90dd-eb6dac1c7f22)
+![Capture d'écran 2024-10-16 160905](https://github.com/user-attachments/assets/f826e6fa-2685-4161-865d-23581bf54e56)
 
 4. **Modifier les paramètres avancés**: Cliquer sur "Advances settings"  
 
-![Capture d'écran 2024-10-16 161131](https://github.com/user-attachments/assets/377acf9e-19e7-4e0b-a01f-6dc9754f80eb)
+![Capture d'écran 2024-10-16 161131](https://github.com/user-attachments/assets/fcd9712c-bcbf-4c7d-9d5f-528f6b994df1)
 
 5. **Finaliser en sécurisant la connexion**: Activer l'option "Require computers to use Network Level Authentication to connect"  
 
-![Capture d'écran 2024-10-11 105906](https://github.com/user-attachments/assets/7fe672e4-3dc1-4a17-a4db-8b3ec654636a)
+![Capture d'écran 2024-10-11 105906](https://github.com/user-attachments/assets/147b709f-3aa2-482f-8cfd-3cd3f8dc5b9e)
 
 ## 3. FAQ : solutions aux problèmes connus et courants liés à l’installation et à la configuration  
