@@ -107,7 +107,10 @@ Remarque: Il est conseillé de suivre les préconisations de [création d'un mot
 
 1. **Répéter à l'identique les 4 premières consignes de l'[installation de TightVNC sur le serveur](https://github.com/WildCodeSchool/TSSR-2409-P1-G2-Teleassistance/blob/main/INSTALL.md#installation-de-la-version-tightvncserver-sur-le-serveur)**  
 
-2. **Configuration Custom**: Faire un clic droit sur "TightVNC Server" et cliquer sur "Entire feature will be unavailable". Vérifier la présence de la croix rouge devant TightVNC Server
+2. **Configuration Custom**: Faire un clic droit sur "TightVNC Server" et cliquer sur "Entire feature will be unavailable". Vérifier la présence de la croix rouge devant TightVNC Server et cliquer sur "Next"  
+
+<img src="https://github.com/user-attachments/assets/545b2885-9d76-4a4b-9181-3917157ea2a1" alt="drawing" width="500"/> 
+<img src="https://github.com/user-attachments/assets/2bac9994-1441-41f8-8881-6d36b25b8a4b" alt="drawing" width="500"/> 
 
 3. **Sélectionner les tâches additionnelles**: Cocher la case "Associate.vnc files with TightVNC Viewer" et cliquer sur "Next"  
 
