@@ -70,7 +70,6 @@ Ce guide vous expliquera comment créer un script pour activer Connexion Bureau 
 
 - Accès administratif au serveur Windows.
 - Accès à PowerShell avec les privilèges nécessaires.
-- Des captures d'écran sont fournies pour vous guider visuellement.
 
 ---
 
