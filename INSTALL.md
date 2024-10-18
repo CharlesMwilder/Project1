@@ -1,13 +1,13 @@
 # Documentation pour les administrateurs  
 
 ## SOMMAIRE
-- [1. Prérequis techniques](https://github.com/WildCodeSchool/TSSR-2409-P1-G2-Teleassistance/blob/main/INSTALL.md#1-pr%C3%A9requis-techniques)
-- [2. Étapes d'installation et de configuration de TightVNC](https://github.com/WildCodeSchool/TSSR-2409-P1-G2-Teleassistance/blob/main/INSTALL.md#2-%C3%A9tapes-dinstallation-et-de-configuration-de-tightvnc)
-- [3. Étapes de configuration de Connexion Bureau à Distance de Windows](https://github.com/WildCodeSchool/TSSR-2409-P1-G2-Teleassistance/blob/main/INSTALL.md#configuration-de-la-connexion-bureau-%C3%A0-distance)
-- [4. Explication des Scripts](https://github.com/WildCodeSchool/TSSR-2409-P1-G2-Teleassistance/blob/main/INSTALL.md#4-explication-des-scripts)
-- [5. FAQ](https://github.com/WildCodeSchool/TSSR-2409-P1-G2-Teleassistance/blob/main/INSTALL.md#3-faq--solutions-aux-probl%C3%A8mes-connus-et-courants-li%C3%A9s-%C3%A0-linstallation-et-%C3%A0-la-configuration)
+- [1. Prérequis techniques](https://github.com/WildCodeSchool/TSSR-2409-P1-G2-Teleassistance/edit/igor/INSTALL.md#one-pr%C3%A9requis-techniques)
+- [2. Étapes d'installation et de configuration de TightVNC](https://github.com/WildCodeSchool/TSSR-2409-P1-G2-Teleassistance/edit/igor/INSTALL.md#2%EF%B8%8F%E2%83%A3-%C3%A9tapes-dinstallation-et-de-configuration)
+- [3. Étapes de configuration de Connexion Bureau à Distance de Windows](https://github.com/WildCodeSchool/TSSR-2409-P1-G2-Teleassistance/edit/igor/INSTALL.md#3%EF%B8%8F%E2%83%A3-configuration-de-la-connexion-bureau-%C3%A0-distance)
+- [4. Explication des Scripts](https://github.com/WildCodeSchool/TSSR-2409-P1-G2-Teleassistance/edit/igor/INSTALL.md#4%EF%B8%8F%E2%83%A3-explication-des-scripts)
   
-## 1. Prérequis techniques  
+## :one: Prérequis techniques  
+
 **TightVNC:**
 - Windows (7, 8, 10, 11, Server 2008/2012/2016/2022)
 - CPU: compatible x86 (Intel ou AMD)
@@ -23,7 +23,7 @@
 - Stockage: 200 Mo pour les fichiers temporaires du service Remote Desktop
 - Accès réseau entre la machine cliente et la machine hôte pour la connexion à distance
   
-## 2. Étapes d'installation et de configuration:  
+## 2️⃣ Étapes d'installation et de configuration:  
 
 - ### Configuration de l'adresse IP du server et du client
 
@@ -56,7 +56,7 @@
 ![Capture d'écran 2024-10-09 150715](https://github.com/user-attachments/assets/ecadb46f-5baf-464b-b446-eeaf6a01d70f)
 
 
-- ### Installation de la version TightVNCserver sur le serveur
+- ### Installation de la version TightVNC Server sur le serveur
 1. **Télécharger le Logiciel TightVNC**: Aller sur le site web de [TightVNC](https://www.tightvnc.com/download.php) et télecharger le logiciel
 
 <img src="https://github.com/user-attachments/assets/8a160481-e75a-4fcb-a3ad-068db5ec2ad8" alt="drawing" width="700"/>  
@@ -104,7 +104,7 @@ Remarque: Il est conseillé de suivre les préconisations de [création d'un mot
 
 ![Capture d'écran 2024-10-09 170443-2](https://github.com/user-attachments/assets/b617d9ae-81b3-4e27-b8e1-51d90306bf87)
 
-## 2. Installation de la version TightVNCviewer sur le client à distance
+## 2. Installation de la version TightVNC Viewer sur le client à distance
 
 1. **Répéter à l'identique les 4 premières consignes de l'[installation de TightVNC sur le serveur](https://github.com/WildCodeSchool/TSSR-2409-P1-G2-Teleassistance/blob/main/INSTALL.md#installation-de-la-version-tightvncserver-sur-le-serveur)**  
 
@@ -131,7 +131,7 @@ Remarque: Il est conseillé de suivre les préconisations de [création d'un mot
 
 ![Capture d'écran 2024-10-09 170443-2](https://github.com/user-attachments/assets/de77389e-f921-45ef-9f13-c86f6ee21933)
 
-## 3. Configuration de la connexion Bureau à distance  
+## 3️⃣ Configuration de la connexion Bureau à distance  
 
 1. **Accéder aux paramètres de l'application This PC**: Tapper dans la barre de recherche de l'ordinateur "This PC", ensuite faire un clic droit sur l'application "This PC" et sélectionner "Properties"  
 
@@ -155,13 +155,13 @@ Remarque: Il est conseillé de suivre les préconisations de [création d'un mot
 ![Capture d'écran 2024-10-11 105906](https://github.com/user-attachments/assets/147b709f-3aa2-482f-8cfd-3cd3f8dc5b9e)
 
 
-## 4. Explication des scripts
+## 4️⃣ Explication des scripts
 
-### SRVscriptRDP
+### Script pour le serveur Connexion Bureau à Distance
 
 Ce script active le bureau à distance et l'authentification au niveau du réseau (NLA) sur un serveur Windows et configure le pare-feu pour qu'il autorise les connexions au bureau à distance.
 
-### Étapes du script :
+#### Étapes du script :
 
 1. **Activer le Bureau à distance** :
    ```
@@ -181,34 +181,28 @@ Ce script active le bureau à distance et l'authentification au niveau du résea
     - **Enable-NetFirewallRule** : Cette cmdlet active les règles de pare-feu spécifiées par le `DisplayGroup`. 
     - **DisplayGroup : « Remote Desktop « ** : Fait référence à un ensemble prédéfini de règles de pare-feu qui autorisent les connexions Bureau à distance. L'activation de ce groupe garantit que les ports et les protocoles nécessaires sont autorisés à travers le pare-feu.
 
-### Explication des commandes
+#### Explication des commandes
 
-#### 1. **Modifications du registre** :
-   Le script modifie le registre Windows pour activer le bureau à distance :
+##### 1. **Modifications du registre** :
+   Le script modifie le registre Windows pour activer Connexion Bureau à Distance:
    - **Registry Path** : `HKLM:\NSystem\NCurrentControlSet\NControl\NTerminal Server`
      - `HKLM` signifie **HKEY_LOCAL_MACHINE**, une ruche de registre qui contient les paramètres de l'ensemble de la machine.
    - **Property Name** : `fDenyTSConnections`
-     - Contrôle si les connexions Remote Desktop sont refusées (`0` pour autoriser les connexions).
+     - Contrôle si les connexions à Connexion Bureau à Distance sont refusées (`0` pour autoriser les connexions).
    - Nom de la propriété** : `UserAuthentication` (authentification de l'utilisateur)
-     - Active NLA (`1`), obligeant les utilisateurs à s'authentifier avant de se connecter à Remote Desktop.
+     - Active NLA (`1`), obligeant les utilisateurs à s'authentifier avant de se connecter à Connexion Bureau à Distance.
 
-#### 2. **Configuration du pare-feu** :
+##### 2. **Configuration du pare-feu** :
    - La cmdlet **Enable-NetFirewallRule** active les règles de pare-feu existantes. Dans ce cas, le groupe d'affichage `Remote Desktop` est utilisé pour autoriser les connexions Remote Desktop à travers le pare-feu Windows Defender.
 
 
-## Script de connexion rapide RDP
+### Script pour le client Conexion Bureau à Distance
 
-Ce script utilise la cmdlet `Start-Process` pour ouvrir rapidement le client Remote Desktop Connection (RDP) et se connecter à un serveur spécifié par IP.
+Ce script utilise la cmdlet `Start-Process` pour ouvrir rapidement le client Connexion Bureau à Distance et se connecter à un serveur spécifié par IP.
 
-### Script :
+#### Script :
 ```
 Start-Process « mstsc » « /v:172.16.10.10 »
 ```
 - **Démarrer un processus** : Cette cmdlet démarre un processus sur l'ordinateur local. Dans ce cas, elle ouvre le client de connexion au bureau à distance (`mstsc`).
 - **« /v:172.16.10.10 »** : Ce paramètre spécifie l'adresse IP du serveur auquel vous souhaitez vous connecter via Remote Desktop. Remplacez `172.16.10.10` par l'adresse IP réelle du serveur.
-
----
-
-
-
-## 5. FAQ : solutions aux problèmes connus et courants liés à l’installation et à la configuration  
