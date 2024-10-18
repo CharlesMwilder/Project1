@@ -114,6 +114,9 @@ Ce guide vous expliquera comment activer le Bureau à Distance et configurer l'a
 
    Write-Host "Configuration du Bureau à Distance terminée."
    ```
+![SRV Script Paste](https://github.com/user-attachments/assets/79d2b090-e7a1-4b5c-bc90-98522fa759c3)
+
+
 
 3. Enregistrez le fichier sous le nom `EnableRemoteDesktop.ps1` en allant dans **File** > **Save As**.
    
