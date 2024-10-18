@@ -1,8 +1,11 @@
 # Documentation pour les utilisateurs
 
-## Utilisation de base: 
-
-### Comment utiliser **TightVNC**
+## SOMMAIRE
+- [1. Utilisation de base: Comment utiliser **TightVNC**](https://github.com/WildCodeSchool/TSSR-2409-P1-G2-Teleassistance/edit/igor/USER_GUIDE.md#one-utilisation-de-base-comment-utiliser-tightvnc)
+- [2. Utilisation de base: Comment utiliser **Connexion Bureau à Distance**](https://github.com/WildCodeSchool/TSSR-2409-P1-G2-Teleassistance/edit/igor/USER_GUIDE.md#two-utilisation-de-base-comment-utiliser-connexion-bureau-%C3%A0-distance)
+- [3. Utilisation avancée pour **Connexion Bureau à Distance**](https://github.com/WildCodeSchool/TSSR-2409-P1-G2-Teleassistance/edit/igor/USER_GUIDE.md#three-utilisation-avanc%C3%A9e-pour-connexion-bureau-%C3%A0-distance)
+  
+## :one: Utilisation de base: Comment utiliser **TightVNC**
 
 1. Vérifier que Tightvnc est bien fonctionnel sur le serveur dans la barre des tâches
  
@@ -30,7 +33,7 @@
 
 
 
-### Comment utiliser **Connexion Bureau à Distance**
+### :two: Utilisation de base: Comment utiliser **Connexion Bureau à Distance**
 
 1. (Depuis le client) Cliquez sur Demarrer, recherchez le programme et lancez le en cliquant dessus
 
@@ -55,10 +58,11 @@
 
 
 
-## Utilisation avancée : comment utiliser au mieux les options
+## :three: Utilisation avancée pour **Connexion Bureau à Distance**
 
 
 Ce guide vous expliquera comment créer un script pour activer le Bureau à Distance avec l'authentification au niveau du réseau (NLA) et TightVNC sur vos systèmes Windows (serveur et client)
+
 
 ---
 
@@ -160,7 +164,4 @@ Start-Process "C:\Program Files\TightVNC\tvnserver.exe" -ArgumentList '-run'
 1. Done !
 
 ---
-
-## FAQ : solutions aux problèmes connus et courants liés à l’utilisation
-
  

@@ -35,14 +35,21 @@ Adresse IP fixe : 172.16.10.20/24
 
 ## 5. Difficultés rencontrées : problèmes techniques rencontrés
 - Problème lors de la connexion de tightVNCviewer au serveur à distance:  
-Message d'erreur au niveau du mot de passe
+Message d'erreur: Password unset
 
+- Problème lié à la configuration réseau sur virtualbox: Perte de la connexion après la configuration manuelle des IP sur notre client et serveur
 
 ## 6. Solutions trouvées : Solutions et alternatives trouvées
- Dans le panneau de configuration de TightVNCserver: reconfiguration du mot de passe pour l'accès à distance
+- Dans le panneau de configuration de TightVNCserver: reconfiguration du mot de passe pour l'accès à distance  
 
-<img width="259" alt="Capture d'écran 2024-10-10 145844" src="https://github.com/user-attachments/assets/cfdefe11-2eab-4bb6-a26c-3b3195bb4846">
+<img width="400" alt="Capture d'écran 2024-10-10 145844 - Copie" src="https://github.com/user-attachments/assets/65e3f8bd-1191-4bfa-9f45-7beeede38ebc">
+
+- Sur virtualbox, il faut passer les machines virtuelles de la connexion NAT (par défaut) à la connexion en accès par pont pour permettre la connexion entre nos 2 VM.
+
+![Capture d'écran 2024-10-15 123023](https://github.com/user-attachments/assets/3941faf1-d04c-451a-9946-e90bb4fad92e)
 
 
 ## 7. Améliorations possibles : suggestions d’améliorations futures
+
+- Etablir une connexion entre un client et un seveur sur 2 réseaux différents via la redirection de port
 
