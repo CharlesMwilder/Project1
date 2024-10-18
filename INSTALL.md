@@ -4,7 +4,8 @@
 - [1. Prérequis techniques](https://github.com/WildCodeSchool/TSSR-2409-P1-G2-Teleassistance/blob/main/INSTALL.md#1-pr%C3%A9requis-techniques)
 - [2. Étapes d'installation et de configuration de TightVNC](https://github.com/WildCodeSchool/TSSR-2409-P1-G2-Teleassistance/blob/main/INSTALL.md#2-%C3%A9tapes-dinstallation-et-de-configuration-de-tightvnc)
 - [3. Étapes de configuration de Connexion Bureau à Distance de Windows](https://github.com/WildCodeSchool/TSSR-2409-P1-G2-Teleassistance/blob/main/INSTALL.md#configuration-de-la-connexion-bureau-%C3%A0-distance)
-- [4. FAQ](https://github.com/WildCodeSchool/TSSR-2409-P1-G2-Teleassistance/blob/main/INSTALL.md#3-faq--solutions-aux-probl%C3%A8mes-connus-et-courants-li%C3%A9s-%C3%A0-linstallation-et-%C3%A0-la-configuration)
+- 
+- [5. FAQ](https://github.com/WildCodeSchool/TSSR-2409-P1-G2-Teleassistance/blob/main/INSTALL.md#3-faq--solutions-aux-probl%C3%A8mes-connus-et-courants-li%C3%A9s-%C3%A0-linstallation-et-%C3%A0-la-configuration)
   
 ## 1. Prérequis techniques  
 **TightVNC:**
@@ -130,7 +131,7 @@ Remarque: Il est conseillé de suivre les préconisations de [création d'un mot
 
 ![Capture d'écran 2024-10-09 170443-2](https://github.com/user-attachments/assets/de77389e-f921-45ef-9f13-c86f6ee21933)
 
-- ### Configuration de la connexion Bureau à distance  
+3. ## Configuration de la connexion Bureau à distance  
 
 1. **Accéder aux paramètres de l'application This PC**: Tapper dans la barre de recherche de l'ordinateur "This PC", ensuite faire un clic droit sur l'application "This PC" et sélectionner "Properties"  
 
@@ -153,4 +154,8 @@ Remarque: Il est conseillé de suivre les préconisations de [création d'un mot
 
 ![Capture d'écran 2024-10-11 105906](https://github.com/user-attachments/assets/147b709f-3aa2-482f-8cfd-3cd3f8dc5b9e)
 
-## 3. FAQ : solutions aux problèmes connus et courants liés à l’installation et à la configuration  
+
+
+
+
+## 5. FAQ : solutions aux problèmes connus et courants liés à l’installation et à la configuration  
