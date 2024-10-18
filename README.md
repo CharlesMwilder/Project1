@@ -51,5 +51,5 @@ Message d'erreur: Password unset
 
 ## 7. Améliorations possibles : suggestions d’améliorations futures
 
-- Etablir une connexion entre un client et un seveur sur 2 réseaux différents via la direction de ports
+- Etablir une connexion entre un client et un seveur sur 2 réseaux différents via la redirection de port
 
