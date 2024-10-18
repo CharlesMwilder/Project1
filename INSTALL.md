@@ -4,7 +4,7 @@
 - [1. Prérequis techniques](https://github.com/WildCodeSchool/TSSR-2409-P1-G2-Teleassistance/blob/main/INSTALL.md#1-pr%C3%A9requis-techniques)
 - [2. Étapes d'installation et de configuration de TightVNC](https://github.com/WildCodeSchool/TSSR-2409-P1-G2-Teleassistance/blob/main/INSTALL.md#2-%C3%A9tapes-dinstallation-et-de-configuration-de-tightvnc)
 - [3. Étapes de configuration de Connexion Bureau à Distance de Windows](https://github.com/WildCodeSchool/TSSR-2409-P1-G2-Teleassistance/blob/main/INSTALL.md#configuration-de-la-connexion-bureau-%C3%A0-distance)
-- 
+- [4. Explication des Scripts](https://github.com/WildCodeSchool/TSSR-2409-P1-G2-Teleassistance/blob/main/INSTALL.md#4-explication-des-scripts)
 - [5. FAQ](https://github.com/WildCodeSchool/TSSR-2409-P1-G2-Teleassistance/blob/main/INSTALL.md#3-faq--solutions-aux-probl%C3%A8mes-connus-et-courants-li%C3%A9s-%C3%A0-linstallation-et-%C3%A0-la-configuration)
   
 ## 1. Prérequis techniques  
@@ -194,6 +194,18 @@ Ce script active le bureau à distance et l'authentification au niveau du résea
 
 #### 2. **Configuration du pare-feu** :
    - La cmdlet **Enable-NetFirewallRule** active les règles de pare-feu existantes. Dans ce cas, le groupe d'affichage `Remote Desktop` est utilisé pour autoriser les connexions Remote Desktop à travers le pare-feu Windows Defender.
+
+
+## Script de connexion rapide RDP
+
+Ce script utilise la cmdlet `Start-Process` pour ouvrir rapidement le client Remote Desktop Connection (RDP) et se connecter à un serveur spécifié par IP.
+
+### Script :
+```
+Start-Process « mstsc » « /v:172.16.10.10 »
+```
+- **Démarrer un processus** : Cette cmdlet démarre un processus sur l'ordinateur local. Dans ce cas, elle ouvre le client de connexion au bureau à distance (`mstsc`).
+- **« /v:172.16.10.10 »** : Ce paramètre spécifie l'adresse IP du serveur auquel vous souhaitez vous connecter via Remote Desktop. Remplacez `172.16.10.10` par l'adresse IP réelle du serveur.
 
 ---
 
