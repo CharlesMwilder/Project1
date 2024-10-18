@@ -58,7 +58,7 @@
 ## Utilisation avancée : comment utiliser au mieux les options
 
 
-Ce guide vous expliquera comment activer le Bureau à Distance et configurer l'authentification au niveau du réseau (NLA) sur vos systèmes Windows (serveur et client), modifier un script, et configurer les règles de pare-feu nécessaires.
+Ce guide vous expliquera comment créer un script pour activer le Bureau à Distance avec l'authentification au niveau du réseau (NLA) et TightVNC sur vos systèmes Windows (serveur et client)
 
 ---
 
@@ -152,19 +152,12 @@ Start-Process "C:\Program Files\TightVNC\tvnserver.exe" -ArgumentList '-run'
    Start-Process "C:\Program Files\TightVNC\tvnviewer.exe"
    ```
    
-3. Enregistrez le fichier sous le nom `ConnexionDistance.ps1`.
+3. Enregistrez le fichier sous le nom `ConnexionDistance.ps1` ou `StartViewerTightVNC.ps1`.
 
 
 ## Étape 2 : Répétez l'étape 2 précédente avec votre nouveau script.
 
 1. Done !
-
-# Explication du script
-
-## Script de démarrage rapide du serveur TightVNC
-
-Ce script démarre le serveur TightVNC sur une machine Windows en utilisant `Start-Process` et affiche un message en utilisant `Write-Host`.
-
 
 ---
 
