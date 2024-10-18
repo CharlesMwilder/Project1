@@ -157,14 +157,14 @@ Remarque: Il est conseillé de suivre les préconisations de [création d'un mot
 
 ## 4️⃣ Explication des scripts
 
-### Script pour le serveur Connexion Bureau à Distance
+### - Script pour le serveur Connexion Bureau à Distance
 
 Ce script active le bureau à distance et l'authentification au niveau du réseau (NLA) sur un serveur Windows et configure le pare-feu pour qu'il autorise les connexions au bureau à distance.
 
 #### Étapes du script :
 
 1. **Activer le Bureau à distance** :
-   ```
+   ```powershell
     Write-Host "Enabling Remote Desktop..."
     Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server' -Name "fDenyTSConnections" -Value 0
     Set-ItemProperty -Path 'HKLM:\System\CurrentControlSet\Control\Terminal Server\WinStations\RDP-Tcp' -Name "UserAuthentication" -Value 1
@@ -195,14 +195,36 @@ Ce script active le bureau à distance et l'authentification au niveau du résea
 ##### 2. **Configuration du pare-feu** :
    - La cmdlet **Enable-NetFirewallRule** active les règles de pare-feu existantes. Dans ce cas, le groupe d'affichage `Remote Desktop` est utilisé pour autoriser les connexions Remote Desktop à travers le pare-feu Windows Defender.
 
+### - Script de démarrage rapide du serveur TightVNC
 
-### Script pour le client Conexion Bureau à Distance
+Ce script démarre le serveur TightVNC sur une machine Windows en utilisant `Start-Process` et affiche un message en utilisant `Write-Host`.
+
+#### Script:
+```powershell
+Write-Host "Starting TightVNC Server..."
+Start-Process "C:\Program Files\TightVNC\tvnserver.exe" -ArgumentList '-run'
+```
+- **Write-Host** : Cette cmdlet affiche un message dans la console PowerShell. Ici, elle notifie que le serveur TightVNC est en train de démarrer.
+- **Start-Process** : Cette cmdlet démarre le processus du serveur TightVNC. Le chemin d'accès pointe vers l'exécutable TightVNC, et la liste d'arguments '-run' garantit que le serveur est démarré en arrière-plan.
+
+
+### - Script pour le client Conexion Bureau à Distance
 
 Ce script utilise la cmdlet `Start-Process` pour ouvrir rapidement le client Connexion Bureau à Distance et se connecter à un serveur spécifié par IP.
 
 #### Script :
-```
+```powershell
 Start-Process « mstsc » « /v:172.16.10.10 »
 ```
 - **Démarrer un processus** : Cette cmdlet démarre un processus sur l'ordinateur local. Dans ce cas, elle ouvre le client de connexion au bureau à distance (`mstsc`).
-- **« /v:172.16.10.10 »** : Ce paramètre spécifie l'adresse IP du serveur auquel vous souhaitez vous connecter via Remote Desktop. Remplacez `172.16.10.10` par l'adresse IP réelle du serveur.
+- **« /v:172.16.10.10 »** : Ce paramètre spécifie l'adresse IP du serveur auquel vous souhaitez vous connecter via Remote Desktop. Remplacez `172.16.10.10` par l'adresse IP de votre serveur si différent.
+
+### - Script de démarrage rapide de TightVNC Viewer
+
+Ce script démarre le « TightVNC viewer » sur le client Windows en utilisant `Start-Process`.
+
+### Script:
+```powershell
+Start-Process "C:\Program Files\TightVNC\tvnviewer.exe"
+```
+- **Start-Process**: Cette cmdlet lance le processus TightVNC Viewer. Le chemin d'accès pointe vers l'exécutable TightVNC qui lance le Viewer.
