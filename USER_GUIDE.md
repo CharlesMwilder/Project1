@@ -58,15 +58,15 @@
 
 
 
-## :three: Utilisation avancée pour **Connexion Bureau à Distance**
+## :three: Utilisation avancée
 
 
-Ce guide vous expliquera comment créer un script pour activer le Bureau à Distance avec l'authentification au niveau du réseau (NLA) et TightVNC sur vos systèmes Windows (serveur et client)
+Ce guide vous expliquera comment créer un script pour activer Connexion Bureau à Distance avec l'authentification au niveau du réseau (NLA) et TightVNC sur vos systèmes Windows (serveur et client)
 
 
 ---
 
-## Prérequis
+### Prérequis
 
 - Accès administratif au serveur Windows.
 - Accès à PowerShell avec les privilèges nécessaires.
@@ -74,15 +74,15 @@ Ce guide vous expliquera comment créer un script pour activer le Bureau à Dist
 
 ---
 
-## Configuration de la Politique d'Exécution de PowerShell sur RemoteSigned pour le **Client** et le **Serveur**
+### Configuration de la Politique d'Exécution de PowerShell sur RemoteSigned pour le **Client** et le **Serveur**
 
-### Étape 1 : Ouvrir PowerShell en Tant qu'Administrateur
+#### Étape 1 : Ouvrir PowerShell en Tant qu'Administrateur
 
 1. Ouvrez la barre de recherche, tapez **PowerShell**, puis faites un clic droit et sélectionnez **Exécuter en tant qu'administrateur**.
    
    ![SRV PS](https://github.com/user-attachments/assets/60aac6d7-ef35-45b8-8cd2-394dd8be5c69)
 
-### Étape 2 : Définir la Politique d'Exécution sur RemoteSigned
+#### Étape 2 : Définir la Politique d'Exécution sur RemoteSigned
 
 1. Entrez la commande suivante dans PowerShell :
 
@@ -94,15 +94,15 @@ Ce guide vous expliquera comment créer un script pour activer le Bureau à Dist
 
 ---
 
-## Script pour Activer le Bureau à Distance et l'Authentification au Niveau Réseau (NLA) **ou** TightVNC sur le Serveur Windows
+### Script pour Activer Connexion Bureau à Distance et l'Authentification au Niveau Réseau (NLA) **ou** TightVNC sur le Serveur Windows
 
-### Étape 1 : Créer le Script PowerShell
+#### Étape 1 : Créer le Script PowerShell
 
 1. Ouvrez **Notepad** sur votre serveur.
    
    ![SRV Notepad](https://github.com/user-attachments/assets/a3b474e6-8d69-4cbc-bd43-fe740a505b00)
 
-2. a. Pour le Bureau à Distance, copiez et collez le script suivant dans le fichier :
+2. a. Pour Connexion Bureau à Distance, copiez et collez le script suivant dans le fichier :
 
    ```powershell
    # Activer le Bureau à Distance et NLA
@@ -120,7 +120,7 @@ Ce guide vous expliquera comment créer un script pour activer le Bureau à Dist
    ```
 ![SRV Script Paste](https://github.com/user-attachments/assets/79d2b090-e7a1-4b5c-bc90-98522fa759c3)
 
-2. b. Et pour TightVNC
+2. b. Pour TightVNC
 ```powershell
 Write-Host "Starting TightVNC Server..."
 Start-Process "C:\Program Files\TightVNC\tvnserver.exe" -ArgumentList '-run'
@@ -132,7 +132,7 @@ Start-Process "C:\Program Files\TightVNC\tvnserver.exe" -ArgumentList '-run'
 
 ---
 
-### Étape 2 : Exécuter le Script
+#### Étape 2 : Exécuter le Script
 
 1. Faites un clic droit sur `EnableRemoteDesktop.ps1` ou `StartTightVNC.ps1`et sélectionnez **Run with PowerShell**.
 
@@ -140,9 +140,9 @@ Start-Process "C:\Program Files\TightVNC\tvnserver.exe" -ArgumentList '-run'
 
 ---
 
-## Script pour Activer la Connexion à Distance ou TightVNC Viewer sur le Client Windows
+### Script pour Activer Connexion à Distance ou TightVNC Viewer sur le Client Windows
 
-### Étape 1 : Créer le Script PowerShell sur le Client
+#### Étape 1 : Créer le Script PowerShell sur le Client
 
 1. Ouvrez **Notepad** sur le client.
 
@@ -159,7 +159,7 @@ Start-Process "C:\Program Files\TightVNC\tvnserver.exe" -ArgumentList '-run'
 3. Enregistrez le fichier sous le nom `ConnexionDistance.ps1` ou `StartViewerTightVNC.ps1`.
 
 
-## Étape 2 : Répétez l'étape 2 précédente avec votre nouveau script.
+#### Étape 2 : Répétez l'étape 2 précédente avec votre nouveau script.
 
 1. Done !
 
