@@ -7,7 +7,7 @@
 - Objectif secondaire: Script PowerShell pour faciliter la connexion initiale de la téléassistance  
 
 ## 2. Introduction : mise en contexte
-Le serveur a rencontré un probleme qu'il n'arrivait pas à resoudre. Le client a dû intervenir sur la machine du serveur en se connectant à distance avec TightVNC et Bureau Connexion à Distance de Windows.
+Le serveur a rencontré un probleme qu'il n'arrivait pas à resoudre. Le client a dû intervenir sur la machine du serveur en se connectant à distance avec TightVNC et Connexion Bureau à Distance de Windows.
 
 ## 3. Membres du groupe de projet (rôles par sprint)
 
