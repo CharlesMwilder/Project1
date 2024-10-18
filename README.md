@@ -17,6 +17,18 @@ Le serveur a rencontré un probleme qu'il n'arrivait pas à resoudre. Le client 
 | PRODUCT OWNER | Igor | Camille |  
 | TECHNICIANS | Mohammed et Camille | Charles et Igor |   
 
+\
+**Objectifs Sprint 2:**  
+- Finaliser la documentation
+- Réaliser les scripts pour la connexion à distance avec TightVNC  
+
+| Membre | Tâches de chacun lors du Sprint 2 |
+| :--: | :-------: |
+| Mohammed | Documentation de l'utilisation de TightVNC sur le USER_GUIDE.md |
+| Charles | Réalisation des scripts TightVNC + Documentation liée au Script dans INSTALL.md et USER_GUIDE.md|
+| Camille | Documentation de la partie installations dans INSTALL.md + Documentation du README.md |
+| Igor | Documentation des pré-requis technique dans INSTALL.md + Documentation du REAME.md + Documentation User_GUIDE.md|
+
 ## 4. Choix techniques:
 
 - Server:  
