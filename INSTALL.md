@@ -155,6 +155,10 @@ Remarque: Il est conseillé de suivre les préconisations de [création d'un mot
 ![Capture d'écran 2024-10-11 105906](https://github.com/user-attachments/assets/147b709f-3aa2-482f-8cfd-3cd3f8dc5b9e)
 
 
+## 4. Explication des scripts
+
+
+
 
 
 
