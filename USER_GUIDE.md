@@ -3,7 +3,7 @@
 ## SOMMAIRE
 - [1. Utilisation de base: Comment utiliser **TightVNC**](https://github.com/WildCodeSchool/TSSR-2409-P1-G2-Teleassistance/blob/main/USER_GUIDE.md#one-utilisation-de-base-comment-utiliser-tightvnc)
 - [2. Utilisation de base: Comment utiliser **Connexion Bureau à Distance**](https://github.com/WildCodeSchool/TSSR-2409-P1-G2-Teleassistance/blob/main/USER_GUIDE.md#two-utilisation-de-base-comment-utiliser-connexion-bureau-%C3%A0-distance)
-- [3. Utilisation avancée pour **Connexion Bureau à Distance**](https://github.com/WildCodeSchool/TSSR-2409-P1-G2-Teleassistance/blob/main/USER_GUIDE.md#three-utilisation-avanc%C3%A9e-pour-connexion-bureau-%C3%A0-distance)
+- [3. Utilisation avancée pour **Connexion Bureau à Distance** et **TightVNC**](https://github.com/WildCodeSchool/TSSR-2409-P1-G2-Teleassistance/blob/main/USER_GUIDE.md#three-utilisation-avanc%C3%A9e)
   
 ## :one: Utilisation de base: Comment utiliser **TightVNC**
 
