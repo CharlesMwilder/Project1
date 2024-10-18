@@ -117,7 +117,8 @@ Ce guide vous expliquera comment créer un script pour activer Connexion Bureau 
 
    Write-Host "Configuration du Bureau à Distance terminée."
    ```
-![SRV Script Paste](https://github.com/user-attachments/assets/79d2b090-e7a1-4b5c-bc90-98522fa759c3)
+
+![SRV Script Paste](https://github.com/user-attachments/assets/7c86d8e9-e85c-4f5f-861e-9fa4389b1d2a)
 
 2. b. Pour TightVNC
 ```powershell
@@ -127,7 +128,7 @@ Start-Process "C:\Program Files\TightVNC\tvnserver.exe" -ArgumentList '-run'
 
 3. Enregistrez le fichier sous le nom `EnableRemoteDesktop.ps1` ou `StartTightVNC.ps1`en allant dans **File** > **Save As**.
    
-   ![SRV Save Folder ps1](https://github.com/user-attachments/assets/1626d7cb-fc41-4492-ac44-3613600db84a)
+![SRV Save Folder ps1](https://github.com/user-attachments/assets/ae45469a-6134-4bca-9bb8-c54fefbbd755)
 
 ---
 
