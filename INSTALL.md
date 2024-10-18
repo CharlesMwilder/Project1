@@ -104,7 +104,7 @@ Remarque: Il est conseillé de suivre les préconisations de [création d'un mot
 
 ![Capture d'écran 2024-10-09 170443-2](https://github.com/user-attachments/assets/b617d9ae-81b3-4e27-b8e1-51d90306bf87)
 
-- ### Installation de la version TightVNCviewer sur le client à distance
+## 2. Installation de la version TightVNCviewer sur le client à distance
 
 1. **Répéter à l'identique les 4 premières consignes de l'[installation de TightVNC sur le serveur](https://github.com/WildCodeSchool/TSSR-2409-P1-G2-Teleassistance/blob/main/INSTALL.md#installation-de-la-version-tightvncserver-sur-le-serveur)**  
 
@@ -131,7 +131,7 @@ Remarque: Il est conseillé de suivre les préconisations de [création d'un mot
 
 ![Capture d'écran 2024-10-09 170443-2](https://github.com/user-attachments/assets/de77389e-f921-45ef-9f13-c86f6ee21933)
 
-3. ## Configuration de la connexion Bureau à distance  
+## 3. Configuration de la connexion Bureau à distance  
 
 1. **Accéder aux paramètres de l'application This PC**: Tapper dans la barre de recherche de l'ordinateur "This PC", ensuite faire un clic droit sur l'application "This PC" et sélectionner "Properties"  
 
