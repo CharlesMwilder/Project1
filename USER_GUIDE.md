@@ -1,8 +1,11 @@
 # Documentation pour les utilisateurs
 
-## Utilisation de base: 
-
-### Comment utiliser **TightVNC**
+## SOMMAIRE
+- [1. Utilisation de base: Comment utiliser **TightVNC**](https://github.com/WildCodeSchool/TSSR-2409-P1-G2-Teleassistance/edit/igor/USER_GUIDE.md#one-utilisation-de-base-comment-utiliser-tightvnc)
+- [2. Utilisation de base: Comment utiliser **Connexion Bureau à Distance**](https://github.com/WildCodeSchool/TSSR-2409-P1-G2-Teleassistance/edit/igor/USER_GUIDE.md#two-utilisation-de-base-comment-utiliser-connexion-bureau-%C3%A0-distance)
+- [3. Utilisation avancée pour **Connexion Bureau à Distance**](https://github.com/WildCodeSchool/TSSR-2409-P1-G2-Teleassistance/edit/igor/USER_GUIDE.md#three-utilisation-avanc%C3%A9e-pour-connexion-bureau-%C3%A0-distance)
+  
+## :one: Utilisation de base: Comment utiliser **TightVNC**
 
 1. Vérifier que Tightvnc est bien fonctionnel sur le serveur dans la barre des tâches
  
@@ -30,7 +33,7 @@
 
 
 
-### Comment utiliser **Connexion Bureau à Distance**
+### :two: Utilisation de base: Comment utiliser **Connexion Bureau à Distance**
 
 1. (Depuis le client) Cliquez sur Demarrer, recherchez le programme et lancez le en cliquant dessus
 
@@ -55,10 +58,10 @@
 
 
 
-## Utilisation avancée : comment utiliser au mieux les options
+## :three: Utilisation avancée pour **Connexion Bureau à Distance**
 
 
-Ce guide vous expliquera comment activer le Bureau à Distance et configurer l'authentification au niveau du réseau (NLA) sur vos systèmes Windows (serveur et client), modifier un script, et configurer les règles de pare-feu nécessaires.
+Ce guide vous expliquera comment activer Connexion Bureau à Distance et configurer l'authentification au niveau du réseau (NLA) sur vos systèmes Windows (serveur et client), modifier un script, et configurer les règles de pare-feu nécessaires.
 
 ---
 
@@ -152,7 +155,4 @@ Ce guide vous expliquera comment activer le Bureau à Distance et configurer l'a
 1. Done !
 
 ---
-
-## FAQ : solutions aux problèmes connus et courants liés à l’utilisation
-
  
